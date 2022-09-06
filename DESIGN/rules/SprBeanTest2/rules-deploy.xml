@@ -4,4 +4,10 @@
   <publishers>
     <publisher>RESTFUL</publisher>
   </publishers>
+<configuration>
+<entry>
+<string>jackson.propertyNamingStrategy</string>
+<string>org.openl.rules.serialization.spr.LowerCaseStrategy</string>
+</entry>
+</configuration>
 </rules-deploy>
